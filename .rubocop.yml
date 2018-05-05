@@ -1,0 +1,9 @@
+AllCops:
+  Exclude:
+    - '**/bin/*'
+    - 'Rakefile'
+    - '**/*.gemspec'
+  TargetRubyVersion: 2.3.3
+
+Lint/UnifiedInteger:
+  Enabled: false
